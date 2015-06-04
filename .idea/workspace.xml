@@ -30,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4171705" vertical-offset="0" max-vertical-offset="827">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.19951633" vertical-offset="0" max-vertical-offset="827">
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -214,7 +214,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433438320469</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Testing changes using WebStorm - font change 2b">
+      <created>1433441669187</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1433441669187</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -264,7 +270,8 @@
     <MESSAGE value="Testing changes using WebStorm - font change" />
     <MESSAGE value="Testing changes using WebStorm - font change 2" />
     <MESSAGE value="Testing changes using WebStorm - font change 2a" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing changes using WebStorm - font change 2a" />
+    <MESSAGE value="Testing changes using WebStorm - font change 2b" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing changes using WebStorm - font change 2b" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -273,8 +280,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4171705" vertical-offset="0" max-vertical-offset="827">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.19951633" vertical-offset="0" max-vertical-offset="827">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
           <folding />
         </state>
       </provider>
