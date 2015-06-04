@@ -1,8 +1,9 @@
 html, *:root {
     -moz-osx-font-smoothing: grayscale;
     color: #3d464d;
-    font-family: fira-sans-2, sans-serif;
-    /* font-family: "NeueHaasUnica","Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-family: "fira-sans-2",sans-serif;
+    font-style: normal;
+    font-weight: 600;    /* font-family: "NeueHaasUnica","Helvetica Neue",Helvetica,Arial,sans-serif; */
     font-feature-settings: "liga", "kern";
     font-kerning: normal;
     font-size: 100%;
@@ -17,7 +18,7 @@ body {
 }
 p.title {
     color: rgb(200,50,50);
-    font-weight: 200;
+    font-style: italic;
     font-size: 2.5em;
 }
 a{
@@ -27,10 +28,11 @@ a{
 }
 a:hover{
     color: rgb(10,10,10);
-    font-weight: 400;
+    font-weight: 500;
 
 }
 p.math_symbols{
     font-size: 1.5em;
     font-weight: 200;
 }
+
