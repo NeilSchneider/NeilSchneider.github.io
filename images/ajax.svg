@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="240" height="240" viewBox="0, 0, 240, 240">
+  <g id="Layer_1">
+    <text transform="matrix(1, 0, 0, 1, 120, 129)">
+      <tspan x="-100.195" y="-18.5" font-family="GillSans-SemiBold" font-size="72" fill="#050202">A JAX</tspan>
+    </text>
+    <text transform="matrix(-1, 0, -0, -1, 85.805, 86)">
+      <tspan x="-10.371" y="24.5" font-family="GillSans-SemiBold" font-size="72" fill="#050202">J</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 120, 151)">
+      <tspan x="-111.629" y="-6.5" font-family="GillSans" font-size="16" fill="#050202">Asynchronous Javascript And XML</tspan>
+      <tspan x="-33.473" y="12.5" font-family="GillSans" font-size="16" fill="#050202">(or JSON)</tspan>
+    </text>
+  </g>
+</svg>
