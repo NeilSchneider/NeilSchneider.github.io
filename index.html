@@ -5,61 +5,61 @@
 
     <script src="//use.typekit.net/bhe1vld.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
+    <style>
+        .slidein {
+            -moz-animation-duration: 3s;
+            -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+            -moz-animation-name: slidein;
+            -webkit-animation-name: slidein;
+            animation-name: slidein;
+            -moz-animation-iteration-count: 3;
+            -webkit-animation-iteration-count: 3;
+            animation-iteration-count: 3;
+            -moz-animation-direction: alternate;
+            -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+        }
 
+        @-moz-keyframes slidein {
+            from {
+                margin-left:100%;
+                width:300%
+            }
+
+            to {
+                margin-left:0%;
+                width:100%;
+            }
+        }
+
+        @-webkit-keyframes slidein {
+            from {
+                margin-left:100%;
+                width:300%
+            }
+
+            to {
+                margin-left:0%;
+                width:100%;
+            }
+        }
+
+        @keyframes slidein {
+            from {
+                margin-left:100%;
+                width:300%
+            }
+
+            to {
+                margin-left:0%;
+                width:100%;
+            }
+        }
+    </style>
 </head>
 <body>
-<style>
-    .slidein {
-        -moz-animation-duration: 3s;
-        -webkit-animation-duration: 3s;
-        animation-duration: 3s;
-        -moz-animation-name: slidein;
-        -webkit-animation-name: slidein;
-        animation-name: slidein;
-        -moz-animation-iteration-count: 3;
-        -webkit-animation-iteration-count: 3;
-        animation-iteration-count: 3;
-        -moz-animation-direction: alternate;
-        -webkit-animation-direction: alternate;
-        animation-direction: alternate;
-    }
 
-    @-moz-keyframes slidein {
-        from {
-            margin-left:100%;
-            width:300%
-        }
-
-        to {
-            margin-left:0%;
-            width:100%;
-        }
-    }
-
-    @-webkit-keyframes slidein {
-        from {
-            margin-left:100%;
-            width:300%
-        }
-
-        to {
-            margin-left:0%;
-            width:100%;
-        }
-    }
-
-    @keyframes slidein {
-        from {
-            margin-left:100%;
-            width:300%
-        }
-
-        to {
-            margin-left:0%;
-            width:100%;
-        }
-    }
-</style>
 <p class="title">Main Index</p>
 <p> XLIX </p>
 <a href="./page2">Go to page 2</a>
@@ -90,7 +90,7 @@
                 l.innerHTML = "Started: elapsed time is " + e.elapsedTime;
                 break;
             case "animationend":
-                l.innerHTML = "Ended: elapsed time is " + e.elapsedTime;
+                l.innerHTML = "The End: elapsed time is " + e.elapsedTime;
                 break;
             case "animationiteration":
                 l.innerHTML = "New loop started at time " + e.elapsedTime;
